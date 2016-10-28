@@ -6,7 +6,7 @@ Meteor.methods({
 		return Bins.insert({
 			createdAt: new Date(),
 			content: '',
-			sharedWith: []
+			sharedWith: [],
 			ownerId: this.userId
 		});
 	}
